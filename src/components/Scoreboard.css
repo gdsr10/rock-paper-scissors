@@ -1,0 +1,43 @@
+
+.scoreboard {
+    text-align: center;
+    color: hsl(229, 64%, 46%);
+    background-color: hsl(240, 16%, 96%);
+    padding: 10px 20px;
+    border-radius: 7px;
+    width: 80px;
+    height: 60px;
+    margin: 0 auto;
+  }
+  
+  .score-text {
+    font-size: 0.7rem;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: -25px;
+  }
+  
+  .score-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: gray;
+  }
+  
+
+@media screen and (max-width: 767px) {
+  .scoreboard {
+    text-align: center;
+    color: hsl(229, 64%, 46%);
+    background-color: hsl(240, 16%, 96%);
+    padding: 10px 20px;
+    border-radius: 7px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }  
+
+  .score-text {
+    font-weight: 900;
+    margin-bottom: -30px;
+  }
+}
